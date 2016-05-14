@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/CMakeLists.txt
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmByteValue.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmDataElement.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmDataSet.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmExplicitDataElement.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmFile.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmFileMetaInformation.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmFragment.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmImplicitDataElement.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmItem.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmMediaStorage.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmPrivateTag.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmReader.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmSequenceOfFragments.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmSequenceOfItems.cxx
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/DataStructureAndEncodingDefinition/gdcmValue.cxx

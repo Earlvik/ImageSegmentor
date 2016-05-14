@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{77A2BA1C-2F27-3C25-BCB6-B211ACC6E0FB}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DiffFile</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DiffFile.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DiffFile</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DiffFile.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DiffFile</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DiffFile.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DiffFile</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DiffFile.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DiffFile</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\Debug\gdcmMSFF.lib;..\..\bin\Debug\gdcmDICT.lib;..\..\bin\Debug\gdcmIOD.lib;..\..\bin\Debug\gdcmDSED.lib;..\..\bin\Debug\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/Debug/DiffFile.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/Debug/DiffFile.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\Release\gdcmMSFF.lib;..\..\bin\Release\gdcmDICT.lib;..\..\bin\Release\gdcmIOD.lib;..\..\bin\Release\gdcmDSED.lib;..\..\bin\Release\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/Release/DiffFile.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/Release/DiffFile.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\MinSizeRel\gdcmMSFF.lib;..\..\bin\MinSizeRel\gdcmDICT.lib;..\..\bin\MinSizeRel\gdcmIOD.lib;..\..\bin\MinSizeRel\gdcmDSED.lib;..\..\bin\MinSizeRel\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/MinSizeRel/DiffFile.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/MinSizeRel/DiffFile.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\RelWithDebInfo\gdcmMSFF.lib;..\..\bin\RelWithDebInfo\gdcmDICT.lib;..\..\bin\RelWithDebInfo\gdcmIOD.lib;..\..\bin\RelWithDebInfo\gdcmDSED.lib;..\..\bin\RelWithDebInfo\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/RelWithDebInfo/DiffFile.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/bin/RelWithDebInfo/DiffFile.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindSQLITE3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindMAGIC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindSQLITE3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindMAGIC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindSQLITE3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindMAGIC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindSQLITE3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\FindMAGIC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Examples\Cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Examples\Cxx\DiffFile.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/ZERO_CHECK.vcxproj">
+      <Project>CC0AA8AD-5EFB-3968-8637-E13C77F0137D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/Common/gdcmCommon.vcxproj">
+      <Project>6149B9D5-4081-3079-BF06-D5C3E57EC4B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/DataDictionary/gdcmDICT.vcxproj">
+      <Project>B2B66CFB-BEF3-3DFA-8E8C-D001EADA1D5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/DataStructureAndEncodingDefinition/gdcmDSED.vcxproj">
+      <Project>DD46C2B0-F08C-3DC5-8A5E-76D4573B8A2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/InformationObjectDefinition/gdcmIOD.vcxproj">
+      <Project>CEB9ECB8-851B-3BE8-B530-B87F6199809F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/MediaStorageAndFileFormat/gdcmMSFF.vcxproj">
+      <Project>C87A7A81-E1AD-3912-8DD0-318E397BB609</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

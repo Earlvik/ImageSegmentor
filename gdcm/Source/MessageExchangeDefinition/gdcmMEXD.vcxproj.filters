@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAAbortPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAAssociateACPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAAssociateRJPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAAssociateRQPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAbstractSyntax.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmApplicationContext.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAReleaseRPPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAReleaseRQPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmARTIMTimer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmAsynchronousOperationsWindowSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmBaseQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmBaseRootQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCEchoMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCFindMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCMoveMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCommandDataSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCompositeMessageFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCompositeNetworkFunctions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmCStoreMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmFindPatientRootQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmFindStudyRootQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmImplementationClassUIDSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmImplementationUIDSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmImplementationVersionNameSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmMaximumLengthSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmModalityPerformedProcedureStepCreateQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmModalityPerformedProcedureStepSetQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmMovePatientRootQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmMoveStudyRootQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNActionMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNCreateMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNDeleteMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNEventReportMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNGetMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNormalizedMessageFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNormalizedNetworkFunctions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmNSetMessages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPDataTFPDU.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPDUFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPresentationContext.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPresentationContextAC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPresentationContextGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPresentationContextRQ.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmPresentationDataValue.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmQueryBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmQueryFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmQueryImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmQueryPatient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmQuerySeries.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmQueryStudy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmRoleSelectionSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmServiceClassApplicationInformation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmServiceClassUser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmSOPClassExtendedNegociationSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmTransferSyntaxSub.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULActionAA.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULActionAE.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULActionAR.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULActionDT.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULBasicCallback.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULConnection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULConnectionInfo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULConnectionManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULTransitionTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmULWritingCallback.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmUserInformation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\gdcmWLMFindQuery.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2307B78-2CC7-330A-A2FB-F0B4668DC3C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

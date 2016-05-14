@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{14604FF6-7485-3BF2-8EE0-12CBF36C01BD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\InstallMacros.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\UseCopyright.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\InstallMacros.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\UseCopyright.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\InstallMacros.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\UseCopyright.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3 -BD:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm --check-stamp-file D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMakeLists.txt;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\InstallMacros.cmake;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMake\UseCopyright.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/ZERO_CHECK.vcxproj">
+      <Project>CC0AA8AD-5EFB-3968-8637-E13C77F0137D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ChangePrivateTags.vcxproj">
+      <Project>114AFA6D-74DB-351B-AD05-E84E7EC09CDD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ChangeSequenceUltrasound.vcxproj">
+      <Project>6AC8A7C7-358D-307F-B469-7DEAE5DCD3E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/CheckBigEndianBug.vcxproj">
+      <Project>4F7B4C9F-60C3-3986-98E1-3DACF713BBC5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ClinicalTrialAnnotate.vcxproj">
+      <Project>B96B598B-906F-3ADC-8C62-1908E8063609</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/CompressImage.vcxproj">
+      <Project>E7F8ED9E-B799-339B-89C5-56E193E58F8B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/CreateARGBImage.vcxproj">
+      <Project>414F4188-2829-338C-A560-CF41F6445E47</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/CreateCMYKImage.vcxproj">
+      <Project>4B9BCE1C-F609-3D60-974A-5F6176AF8CF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/CreateJPIPDataSet.vcxproj">
+      <Project>77D6D428-5CEF-3103-8E1E-F6886D1B09CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DiffFile.vcxproj">
+      <Project>77A2BA1C-2F27-3C25-BCB6-B211ACC6E0FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DiscriminateVolume.vcxproj">
+      <Project>2C78300A-7832-3AF7-AC24-10D6BC4EE95F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DumpADAC.vcxproj">
+      <Project>515B9A40-3C80-3964-ACD7-948FA60B52A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DumpExamCard.vcxproj">
+      <Project>3D86A2B7-4144-34D9-8B21-6552C654CC19</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DumpGEMSMovieGroup.vcxproj">
+      <Project>BD509CAE-43CE-3BC8-A144-6788F44EFF5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DumpImageHeaderInfo.vcxproj">
+      <Project>ED7507D8-F05D-3AD7-B749-9E2CA2805E57</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DumpPhilipsECHO.vcxproj">
+      <Project>0951F5F7-E614-3A7A-989B-61655A3F1E85</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DumpToshibaDTI.vcxproj">
+      <Project>F326E890-075D-32A5-8A01-689A2570CFFE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/DuplicatePCDE.vcxproj">
+      <Project>2EF166C0-D285-3302-9269-66B690D202DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ELSCINT1WaveToText.vcxproj">
+      <Project>5D38FF14-F9AA-3F30-B4A0-62C8663A0EE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ExtractEncryptedContent.vcxproj">
+      <Project>D6959F09-F1CF-316E-A66B-3892F27DD7E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ExtractIconFromFile.vcxproj">
+      <Project>34621EE8-D3F2-34A3-A55C-C747002DC034</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/FixBrokenJ2K.vcxproj">
+      <Project>F94F846E-C4B0-3D04-9362-229E6EBF8F99</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/FixJAIBugJPEGLS.vcxproj">
+      <Project>9DAC7745-EF94-3353-BC89-0083E001A65E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/FixOrientation.vcxproj">
+      <Project>E6661873-EF8D-3B41-ABD7-E03C7499442F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GenAllVR.vcxproj">
+      <Project>C089E28E-4048-30AF-B997-FEBE7FE1A686</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GenFakeIdentifyFile.vcxproj">
+      <Project>4918B8F9-2A86-3F85-B5BE-EED5FAF4EA81</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GenFakeImage.vcxproj">
+      <Project>415F69C4-C1FC-3482-AC0B-FA1EDD74BD51</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GenLongSeqs.vcxproj">
+      <Project>9B1EEAD0-89BC-3363-B296-EA9C86C6AA7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GenSeqs.vcxproj">
+      <Project>1815DD1A-8CCC-3142-8C24-57DCC3E2E7C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GenerateStandardSOPClasses.vcxproj">
+      <Project>A83E1814-4D0B-3FFC-8A14-6F8DE5BED6A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GetJPEGSamplePrecision.vcxproj">
+      <Project>5549319A-2849-3131-ABDC-D4ABA74E091F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GetSequenceUltrasound.vcxproj">
+      <Project>24B92382-E088-36E8-BDAC-23C2CA5570C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/GetSubSequenceData.vcxproj">
+      <Project>22889C24-3646-3F25-9F8C-63E7D373925A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/HelloVizWorld.vcxproj">
+      <Project>863D2ABC-F2A3-3047-A574-CE3826575E9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/HelloWorld.vcxproj">
+      <Project>5941A27A-619B-35A0-8C1F-B8ED735A2652</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/LargeVRDSExplicit.vcxproj">
+      <Project>388620B7-AA49-3EEF-B055-26FB6BE492DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/MakeTemplate.vcxproj">
+      <Project>F050DC44-6892-3690-B820-2B4772E55FD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/MergeTwoFiles.vcxproj">
+      <Project>B5746BA0-0FF1-3BD2-8FAF-F87F304B5B96</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/MrProtocol.vcxproj">
+      <Project>1B4C965C-E876-36ED-80ED-25786C33A7C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/PatchFile.vcxproj">
+      <Project>A0735975-A4A0-3B61-99E5-DC562325ED6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/PublicDict.vcxproj">
+      <Project>A90900EE-AF28-3F2C-8AB9-7AB6F3C0EDDD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/QIDO-RS.vcxproj">
+      <Project>36CB0A0F-B0DA-3B01-83D6-08722CF70718</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ReadAndDumpDICOMDIR.vcxproj">
+      <Project>680E971D-C2CF-36DA-AD5D-5062D1C413BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ReadAndPrintAttributes.vcxproj">
+      <Project>6EC0161C-8A0A-3344-8F97-350C1FB38DC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ReadExplicitLengthSQIVR.vcxproj">
+      <Project>0AAE8584-55F7-3A0E-A356-50BCD5D8D2BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ReadGEMSSDO.vcxproj">
+      <Project>413C707F-EDCB-3A6C-93AE-8D3625C52377</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/ReadMultiTimesException.vcxproj">
+      <Project>D9589CD9-2DD7-3FB6-B517-E0CC7459ED82</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/SimpleScanner.vcxproj">
+      <Project>E951D9F5-4324-3425-8B41-2AE8A1D59BB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/SortImage.vcxproj">
+      <Project>C9E9AF52-2C10-38EC-8FC7-3A676CE17123</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/TraverseModules.vcxproj">
+      <Project>BD67A06E-64CE-3C97-8023-238F64A337FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/csa2img.vcxproj">
+      <Project>20C022F1-EAB6-390C-8AC5-1851BF07A784</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/Common/gdcmCommon.vcxproj">
+      <Project>6149B9D5-4081-3079-BF06-D5C3E57EC4B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/DataDictionary/gdcmDICT.vcxproj">
+      <Project>B2B66CFB-BEF3-3DFA-8E8C-D001EADA1D5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/DataStructureAndEncodingDefinition/gdcmDSED.vcxproj">
+      <Project>DD46C2B0-F08C-3DC5-8A5E-76D4573B8A2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/InformationObjectDefinition/gdcmIOD.vcxproj">
+      <Project>CEB9ECB8-851B-3BE8-B530-B87F6199809F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/MessageExchangeDefinition/gdcmMEXD.vcxproj">
+      <Project>119703CC-CEA8-38E0-9040-2D6EFD18E8AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Source/MediaStorageAndFileFormat/gdcmMSFF.vcxproj">
+      <Project>C87A7A81-E1AD-3912-8DD0-318E397BB609</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmcharls/gdcmcharls.vcxproj">
+      <Project>ED1DEBA1-4B08-386F-869C-BABC83928B2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmexpat/lib/gdcmexpat.vcxproj">
+      <Project>C6541F4E-8075-33F8-8CE2-9107BAB88A1F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/getopt/gdcmgetopt.vcxproj">
+      <Project>2CE6582B-C92F-3806-B179-ED3E3A013508</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmjpeg/12/gdcmjpeg12.vcxproj">
+      <Project>5DD34AEB-E2AC-3BAA-83D9-6A207256F09A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmjpeg/16/gdcmjpeg16.vcxproj">
+      <Project>C2F85C2D-DD58-3737-8C46-FBBF7A75553C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmjpeg/8/gdcmjpeg8.vcxproj">
+      <Project>4DF5C691-27C6-3629-B234-01602088BA93</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmopenjpeg-v1/libopenjpeg/gdcmopenjpeg.vcxproj">
+      <Project>4A0920FF-71B6-3846-B6C7-B8C2528C8031</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/gdcmzlib/gdcmzlib.vcxproj">
+      <Project>21AD0619-3B20-3691-8551-E578D96ABCF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/iU22tomultisc.vcxproj">
+      <Project>1D1D1BC4-0089-3E07-B1BA-C7334B826B60</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/pmsct_rgb1.vcxproj">
+      <Project>B2E04337-C6B2-31FD-A979-768081782997</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/rle2img.vcxproj">
+      <Project>86105CED-81FF-3898-BA99-235F7B4F3805</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Utilities/socketxx/socket++/socketxx.vcxproj">
+      <Project>3EA945B0-7FD8-3568-B3E3-E63697D80A61</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dropbox/LopatinV/armadillo-6.700.3.tar/armadillo-6.700.3/examples/gdcm/Examples/Cxx/uid_unique.vcxproj">
+      <Project>82621951-8EB4-39BC-B2AC-6E5B9C7F43FC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

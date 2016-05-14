@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmexpat/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmexpat/expat_config.h.in
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmexpat/expat_mangle.h.in

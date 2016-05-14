@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/Common/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Source/Common/gdcmConfigure.h.in

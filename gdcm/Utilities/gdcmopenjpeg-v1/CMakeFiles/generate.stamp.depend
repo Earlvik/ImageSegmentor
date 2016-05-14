@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmopenjpeg-v1/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeBackwardCompatibilityC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindX11.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmopenjpeg-v1/CMake/CheckHaveGetopt.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmopenjpeg-v1/CMake/CTestCustom.cmake.in
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmopenjpeg-v1/openjpeg_mangle.h.in
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Utilities/gdcmopenjpeg-v1/opj_configh.cmake.in

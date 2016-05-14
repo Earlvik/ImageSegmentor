@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/Examples/Cxx/CMakeLists.txt
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMake/FindSQLITE3.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Users/Виктор/Downloads/gdcm-2.6.3.tar/gdcm-2.6.3/CMake/FindMAGIC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindQt4.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckCXXSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/MacroAddFileDependencies.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakePushCheckState.cmake

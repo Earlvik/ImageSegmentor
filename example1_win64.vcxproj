@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BDE105B5-0B52-4D77-832F-3465D464A901}</ProjectGuid>
+    <RootNamespace>example1_win64</RootNamespace>
+    <ProjectName>ImageSegmentation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ReferencePath>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\Release;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ReferencePath>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\Release;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;$(OPENCV_DIR)\..\..\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lapack_win64_MT.lib;blas_win64_MT.lib;opencv_world310d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gdcmMSFF.lib;gdcmDICT.lib;gdcmIOD.lib;gdcmDSED.lib;gdcmCommon.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\Release;$(OPENCV_DIR)\lib;lib_win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataStructureAndEncodingDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MediaStorageAndFileFormat;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\InformationObjectDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\MessageExchangeDefinition;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\DataDictionary;C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities;D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\Utilities\gdcmzlib;$(OPENCV_DIR)\..\..\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ARMA_USE_LAPACK;ARMA_USE_BLAS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>lapack_win64_MT.lib;blas_win64_MT.lib;opencv_world310d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gdcmMSFF.lib;gdcmDICT.lib;gdcmIOD.lib;gdcmDSED.lib;gdcmCommon.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Dropbox\LopatinV\armadillo-6.700.3.tar\armadillo-6.700.3\examples\gdcm\bin\Release;$(OPENCV_DIR)\lib;lib_win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy lib_win64\*.dll $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy .DLL to output directory</Message>
+    </PostBuildEvent>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OPENCV_DIR)\..\..\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ARMA_USE_LAPACK;ARMA_USE_BLAS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>lapack_win64_MT.lib;blas_win64_MT.lib;opencv_world310.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPENCV_DIR)\lib;lib_win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy lib_win64\*.dll $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy .DLL to output directory</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DicomImage.cpp" />
+    <ClCompile Include="Direcory.cpp" />
+    <ClCompile Include="example1.cpp" />
+    <ClCompile Include="SegImage.cpp" />
+    <ClCompile Include="library\base\src\baseObject.cpp" />
+    <ClCompile Include="library\base\src\baseStream.cpp" />
+    <ClCompile Include="library\base\src\charsetConversionBase.cpp" />
+    <ClCompile Include="library\base\src\charsetConversionIconv.cpp" />
+    <ClCompile Include="library\base\src\charsetConversionICU.cpp" />
+    <ClCompile Include="library\base\src\charsetConversionWindows.cpp" />
+    <ClCompile Include="library\base\src\criticalSection.cpp" />
+    <ClCompile Include="library\base\src\exception.cpp" />
+    <ClCompile Include="library\base\src\huffmanTable.cpp" />
+    <ClCompile Include="library\base\src\memory.cpp" />
+    <ClCompile Include="library\base\src\memoryStream.cpp" />
+    <ClCompile Include="library\base\src\stream.cpp" />
+    <ClCompile Include="library\base\src\streamController.cpp" />
+    <ClCompile Include="library\base\src\streamReader.cpp" />
+    <ClCompile Include="library\base\src\streamWriter.cpp" />
+    <ClCompile Include="library\imebra\src\applyLUT.cpp" />
+    <ClCompile Include="library\imebra\src\buffer.cpp" />
+    <ClCompile Include="library\imebra\src\charsetsList.cpp" />
+    <ClCompile Include="library\imebra\src\codec.cpp" />
+    <ClCompile Include="library\imebra\src\codecFactory.cpp" />
+    <ClCompile Include="library\imebra\src\colorTransform.cpp" />
+    <ClCompile Include="library\imebra\src\colorTransformsFactory.cpp" />
+    <ClCompile Include="library\imebra\src\data.cpp" />
+    <ClCompile Include="library\imebra\src\dataGroup.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandler.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerDate.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerDateTime.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerDateTimeBase.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerString.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringAE.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringAS.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringCS.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringDS.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringIS.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringLO.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringLT.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringPN.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringSH.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringST.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringUI.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringUnicode.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerStringUT.cpp" />
+    <ClCompile Include="library\imebra\src\dataHandlerTime.cpp" />
+    <ClCompile Include="library\imebra\src\dataSet.cpp" />
+    <ClCompile Include="library\imebra\src\dicomCodec.cpp" />
+    <ClCompile Include="library\imebra\src\dicomDict.cpp" />
+    <ClCompile Include="library\imebra\src\dicomDir.cpp" />
+    <ClCompile Include="library\imebra\src\drawBitmap.cpp" />
+    <ClCompile Include="library\imebra\src\image.cpp" />
+    <ClCompile Include="library\imebra\src\jpegCodec.cpp" />
+    <ClCompile Include="library\imebra\src\LUT.cpp" />
+    <ClCompile Include="library\imebra\src\modalityVOILUT.cpp" />
+    <ClCompile Include="library\imebra\src\MONOCHROME1ToMONOCHROME2.cpp" />
+    <ClCompile Include="library\imebra\src\MONOCHROME1ToRGB.cpp" />
+    <ClCompile Include="library\imebra\src\MONOCHROME2ToRGB.cpp" />
+    <ClCompile Include="library\imebra\src\MONOCHROME2ToYBRFULL.cpp" />
+    <ClCompile Include="library\imebra\src\PALETTECOLORToRGB.cpp" />
+    <ClCompile Include="library\imebra\src\RGBToMONOCHROME2.cpp" />
+    <ClCompile Include="library\imebra\src\RGBToYBRFULL.cpp" />
+    <ClCompile Include="library\imebra\src\RGBToYBRPARTIAL.cpp" />
+    <ClCompile Include="library\imebra\src\transaction.cpp" />
+    <ClCompile Include="library\imebra\src\transform.cpp" />
+    <ClCompile Include="library\imebra\src\transformHighBit.cpp" />
+    <ClCompile Include="library\imebra\src\transformsChain.cpp" />
+    <ClCompile Include="library\imebra\src\viewHelper.cpp" />
+    <ClCompile Include="library\imebra\src\VOILUT.cpp" />
+    <ClCompile Include="library\imebra\src\waveform.cpp" />
+    <ClCompile Include="library\imebra\src\YBRFULLToMONOCHROME2.cpp" />
+    <ClCompile Include="library\imebra\src\YBRFULLToRGB.cpp" />
+    <ClCompile Include="library\imebra\src\YBRPARTIALToRGB.cpp" />
+    <ClCompile Include="MeanFiller.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DicomImage.h" />
+    <ClInclude Include="Direcory.h" />
+    <ClInclude Include="SegImage.h" />
+    <ClInclude Include="library\base\include\baseObject.h" />
+    <ClInclude Include="library\base\include\baseStream.h" />
+    <ClInclude Include="library\base\include\charsetConversion.h" />
+    <ClInclude Include="library\base\include\charsetConversionBase.h" />
+    <ClInclude Include="library\base\include\charsetConversionIconv.h" />
+    <ClInclude Include="library\base\include\charsetConversionICU.h" />
+    <ClInclude Include="library\base\include\charsetConversionWindows.h" />
+    <ClInclude Include="library\base\include\configuration.h" />
+    <ClInclude Include="library\base\include\criticalSection.h" />
+    <ClInclude Include="library\base\include\exception.h" />
+    <ClInclude Include="library\base\include\huffmanTable.h" />
+    <ClInclude Include="library\base\include\memory.h" />
+    <ClInclude Include="library\base\include\memoryStream.h" />
+    <ClInclude Include="library\base\include\nullStream.h" />
+    <ClInclude Include="library\base\include\stream.h" />
+    <ClInclude Include="library\base\include\streamController.h" />
+    <ClInclude Include="library\base\include\streamReader.h" />
+    <ClInclude Include="library\base\include\streamWriter.h" />
+    <ClInclude Include="library\imebra\include\applyLUT.h" />
+    <ClInclude Include="library\imebra\include\buffer.h" />
+    <ClInclude Include="library\imebra\include\bufferStream.h" />
+    <ClInclude Include="library\imebra\include\charsetsList.h" />
+    <ClInclude Include="library\imebra\include\codec.h" />
+    <ClInclude Include="library\imebra\include\codecFactory.h" />
+    <ClInclude Include="library\imebra\include\colorTransform.h" />
+    <ClInclude Include="library\imebra\include\colorTransformsFactory.h" />
+    <ClInclude Include="library\imebra\include\data.h" />
+    <ClInclude Include="library\imebra\include\dataCollection.h" />
+    <ClInclude Include="library\imebra\include\dataGroup.h" />
+    <ClInclude Include="library\imebra\include\dataHandler.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerDate.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerDateTime.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerDateTimeBase.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerNumeric.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerString.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringAE.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringAS.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringCS.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringDS.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringIS.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringLO.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringLT.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringPN.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringSH.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringST.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringUI.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringUnicode.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerStringUT.h" />
+    <ClInclude Include="library\imebra\include\dataHandlerTime.h" />
+    <ClInclude Include="library\imebra\include\dataSet.h" />
+    <ClInclude Include="library\imebra\include\dicomCodec.h" />
+    <ClInclude Include="library\imebra\include\dicomDict.h" />
+    <ClInclude Include="library\imebra\include\dicomDir.h" />
+    <ClInclude Include="library\imebra\include\drawBitmap.h" />
+    <ClInclude Include="library\imebra\include\image.h" />
+    <ClInclude Include="library\imebra\include\imebra.h" />
+    <ClInclude Include="library\imebra\include\imebraDoc.h" />
+    <ClInclude Include="library\imebra\include\jpegCodec.h" />
+    <ClInclude Include="library\imebra\include\LUT.h" />
+    <ClInclude Include="library\imebra\include\modalityVOILUT.h" />
+    <ClInclude Include="library\imebra\include\MONOCHROME1ToMONOCHROME2.h" />
+    <ClInclude Include="library\imebra\include\MONOCHROME1ToRGB.h" />
+    <ClInclude Include="library\imebra\include\MONOCHROME2ToRGB.h" />
+    <ClInclude Include="library\imebra\include\MONOCHROME2ToYBRFULL.h" />
+    <ClInclude Include="library\imebra\include\PALETTECOLORToRGB.h" />
+    <ClInclude Include="library\imebra\include\RGBToMONOCHROME2.h" />
+    <ClInclude Include="library\imebra\include\RGBToYBRFULL.h" />
+    <ClInclude Include="library\imebra\include\RGBToYBRPARTIAL.h" />
+    <ClInclude Include="library\imebra\include\transaction.h" />
+    <ClInclude Include="library\imebra\include\transform.h" />
+    <ClInclude Include="library\imebra\include\transformHighBit.h" />
+    <ClInclude Include="library\imebra\include\transformsChain.h" />
+    <ClInclude Include="library\imebra\include\viewHelper.h" />
+    <ClInclude Include="library\imebra\include\VOILUT.h" />
+    <ClInclude Include="library\imebra\include\waveform.h" />
+    <ClInclude Include="library\imebra\include\YBRFULLToMONOCHROME2.h" />
+    <ClInclude Include="library\imebra\include\YBRFULLToRGB.h" />
+    <ClInclude Include="library\imebra\include\YBRPARTIALToRGB.h" />
+    <ClInclude Include="MeanFiller.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

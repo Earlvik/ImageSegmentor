@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\sockstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\sockinet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\fork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\echo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\sockstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\sockinet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\fork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\echo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Utilities\socketxx\socket++\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2307B78-2CC7-330A-A2FB-F0B4668DC3C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{769E04F9-D3D9-3265-9DE5-8526C79A4BFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

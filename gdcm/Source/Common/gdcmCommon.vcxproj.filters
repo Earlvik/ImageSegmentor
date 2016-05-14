@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmVersion.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmRegion.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmBoxRegion.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmEvent.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmDataEvent.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmProgressEvent.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmFileNameEvent.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmMD5.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmBase64.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmSHA1.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmDummyValueGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmCryptographicMessageSyntax.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmCryptoFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmASN1.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmSubject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmDirectory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmTerminal.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmString.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmFilename.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmFilenameGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmSwapCode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmSystem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmTrace.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmException.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmDeflateStream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmByteSwap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmUnpacker12Bits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmCAPICryptographicMessageSyntax.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\gdcmCAPICryptoFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Виктор\Downloads\gdcm-2.6.3.tar\gdcm-2.6.3\Source\Common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2307B78-2CC7-330A-A2FB-F0B4668DC3C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
